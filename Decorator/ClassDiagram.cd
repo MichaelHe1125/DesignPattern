@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Beverage">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAQAAAAAgAAAAIAAAAAAAAAAQAAAAAAAAAAAAAAg=</HashCode>
+      <FileName>Beverage.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CondimentDecorator">
+    <Position X="10" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAgAAAAAAAAAAAAAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CondimentDecorator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DarkRoast">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAAAAAAAAAAAAAAAQAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>DarkRoast.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Decaf">
+    <Position X="7.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAQAAAAAAAAAAAAAAAAAAAAQAAAAAAEAAAAAAAA=</HashCode>
+      <FileName>Decaf.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Espresso">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAIAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Espresso.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="HouseBlend">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>HouseBlend.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Milk" Collapsed="true">
+    <Position X="11.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAIU=</HashCode>
+      <FileName>Milk.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Mocha" Collapsed="true">
+    <Position X="13.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAABAAAgAgAAAAAAAAAAAAAQAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Mocha.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Soy" Collapsed="true">
+    <Position X="6.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAgAAEAAAAAAAAAAAAQAQAAAAAAAAAAAAE=</HashCode>
+      <FileName>Soy.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Whip" Collapsed="true">
+    <Position X="9" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAgAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAE=</HashCode>
+      <FileName>Whip.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
