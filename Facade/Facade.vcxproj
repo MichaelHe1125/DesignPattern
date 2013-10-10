@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{022BE193-296F-4344-A450-B903279DA04A}</ProjectGuid>
-    <RootNamespace>TemplateMethod</RootNamespace>
+    <ProjectGuid>{EB3944E8-8109-4E67-8D45-35BC10EBD14B}</ProjectGuid>
+    <RootNamespace>Facade</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -64,14 +64,18 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="CaffeineBeverage.h" />
-    <ClInclude Include="CaffeineBeverageWithHook.h" />
-    <ClInclude Include="Coffee.h" />
-    <ClInclude Include="CoffeeWithHook.h" />
-    <ClInclude Include="Tea.h" />
-    <ClInclude Include="TeaWithHook.h" />
+    <ClInclude Include="Amplifier.h" />
+    <ClInclude Include="CdPlayer.h" />
+    <ClInclude Include="DvdPlayer.h" />
+    <ClInclude Include="HomeTheaterFacade.h" />
+    <ClInclude Include="PopcornPopper.h" />
+    <ClInclude Include="Projector.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="TheaterLights.h" />
+    <ClInclude Include="Tuner.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="HomeTheaterFacade.cpp" />
     <ClCompile Include="Main.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

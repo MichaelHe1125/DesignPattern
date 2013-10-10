@@ -15,26 +15,38 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="CaffeineBeverage.h">
+    <ClInclude Include="Screen.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Coffee.h">
+    <ClInclude Include="Amplifier.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Tea.h">
+    <ClInclude Include="CdPlayer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CaffeineBeverageWithHook.h">
+    <ClInclude Include="DvdPlayer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="CoffeeWithHook.h">
+    <ClInclude Include="TheaterLights.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="TeaWithHook.h">
+    <ClInclude Include="Projector.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tuner.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PopcornPopper.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="HomeTheaterFacade.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="HomeTheaterFacade.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
