@@ -25,11 +25,6 @@ public:
 		}
 	}
 
-	std::ostream& operator<<(std::ostream& out)
-	{
-		return out<<*description;
-	}
-
 	void on()
 	{
 		std::cout<<*description+" on\n";
@@ -79,6 +74,11 @@ public:
 
 	void setSurroundAudio() {
 		std::cout<<*description + " set surround audio\n";
+	}
+	
+	friend std::ostream& operator<<(std::ostream& out, const DvdPlayer &dvdPlayer)
+	{
+		return out<<*dvdPlayer.description;
 	}
 
 private:

@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1B80F086-C0A4-4876-AB5C-9760AB1C5405}</ProjectGuid>
-    <RootNamespace>Singleton</RootNamespace>
+    <ProjectGuid>{E500AD0B-7BC9-4C1B-9550-927521B6C685}</ProjectGuid>
+    <RootNamespace>Composite</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -64,11 +64,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="CompositeIterator.h" />
+    <ClInclude Include="Iterator.h" />
+    <ClInclude Include="Menu.h" />
+    <ClInclude Include="MenuComponent.h" />
+    <ClInclude Include="MenuItem.h" />
+    <ClInclude Include="MenuIterator.h" />
+    <ClInclude Include="NullIterator.h" />
+    <ClInclude Include="Waitress.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Singleton.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

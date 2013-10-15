@@ -25,11 +25,6 @@ public:
 		}		
 	}
 
-	std::ostream& operator<<(std::ostream& out)
-	{
-		return out<<*description;
-	}
-
 	void on()
 	{
 		std::cout<<*description+" on\n";
@@ -70,6 +65,12 @@ public:
 
 	void pause() {
 		std::cout << *description + " paused \"" + *title + "\"\n";
+	}
+
+
+	friend std::ostream& operator<<(std::ostream& out, const CdPlayer& cdPlayer)
+	{
+		return out<<*cdPlayer.description;
 	}
 
 private:

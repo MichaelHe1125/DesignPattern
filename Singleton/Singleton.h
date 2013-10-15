@@ -9,6 +9,7 @@ public:
 		{
 			uniqueInstance = new Singleton();
 		}
+		return uniqueInstance;
 	}
 
 	static void releaseInstance()
@@ -22,8 +23,8 @@ public:
 
 private:
 
-	Singleton(void);
-	~Singleton();
+	Singleton(void) {}
+	~Singleton() {}
 	static Singleton* uniqueInstance;
 };
 

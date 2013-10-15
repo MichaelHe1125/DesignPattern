@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="CompositeIterator" Collapsed="true">
+    <Position X="0.75" Y="1.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAACAAAAAAAAAAAAIAAAAAAAAAAAAAAAAIBAAA=</HashCode>
+      <FileName>CompositeIterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Iterator" Collapsed="true">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAACAAAIAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Iterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Menu">
+    <Position X="2.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAADgAAAEIAAAAAACAAAMAAAAAAAEAAACACA=</HashCode>
+      <FileName>Menu.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuComponent" Collapsed="true">
+    <Position X="1.5" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAACgAQgEAAAAABACgAAAAAAAAAAEAAACAAA=</HashCode>
+      <FileName>MenuComponent.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuItem">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQBAAAAAAKgABAAIAAAABAAgAAEAAAAIAAEAAAAAAA=</HashCode>
+      <FileName>MenuItem.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MenuIterator" Collapsed="true">
+    <Position X="5.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAAAAAEAAAAAIAAAAAAAAAAAAAAAAAIABCA=</HashCode>
+      <FileName>MenuIterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="NullIterator" Collapsed="true">
+    <Position X="3.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAQAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>NullIterator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Waitress">
+    <Position X="8" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAAAABAAAAAACAgAAAAAAAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>Waitress.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>

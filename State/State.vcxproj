@@ -11,8 +11,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{1B80F086-C0A4-4876-AB5C-9760AB1C5405}</ProjectGuid>
-    <RootNamespace>Singleton</RootNamespace>
+    <ProjectGuid>{A4E1CA44-6AFC-482C-B7E2-352B96D632D3}</ProjectGuid>
+    <RootNamespace>State</RootNamespace>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -64,11 +64,20 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClInclude Include="Singleton.h" />
+    <ClInclude Include="GumballMachine.h" />
+    <ClInclude Include="HasQuarterState.h" />
+    <ClInclude Include="NoQuarterState.h" />
+    <ClInclude Include="SoldOutState.h" />
+    <ClInclude Include="SoldState.h" />
+    <ClInclude Include="State.h" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Main.cpp" />
-    <ClCompile Include="Singleton.cpp" />
+    <ClCompile Include="GumballMachine.cpp" />
+    <ClCompile Include="HasQuarterState.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="NoQuarterState.cpp" />
+    <ClCompile Include="SoldOutState.cpp" />
+    <ClCompile Include="SoldState.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
