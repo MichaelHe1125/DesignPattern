@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="AbstractDuckFactory" Collapsed="true">
+    <Position X="1.75" Y="6.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAAAAAAQAAAAAAAAIAAAAAAUAAAAAAAA=</HashCode>
+      <FileName>AbstractDuckFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="CountingDuckFactory" Collapsed="true">
+    <Position X="0.5" Y="7.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>EAAAAAAAAAACAAIAAAQAAAAAAAAIAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>CountingDuckFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuckCall">
+    <Position X="8" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAIIAABAAABAIAAAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>DuckCall.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuckFactory" Collapsed="true">
+    <Position X="3.25" Y="7.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAGAAAAAAQAAAAAAAAIAAAAAAQAAAAAAAA=</HashCode>
+      <FileName>DuckFactory.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DuckSimulator" Collapsed="true">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAQAAAAAAAAAAAAAAQAA=</HashCode>
+      <FileName>DuckSimulator.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Flock">
+    <Position X="3.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAACAAAIAAAACAABAAAQAAAAAAAAAAAAAACAEA=</HashCode>
+      <FileName>Flock.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Goose" Collapsed="true">
+    <Position X="21.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAAAAgAAAAAAAAAAAAAAAAABAAAAAAAAAAA=</HashCode>
+      <FileName>Goose.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="MallardDuck">
+    <Position X="1.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAIAAABAAABAAAAAAAACCAAAAAAAAAAEA=</HashCode>
+      <FileName>MallardDuck.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observer" Collapsed="true">
+    <Position X="19.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAECAA=</HashCode>
+      <FileName>Observer.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Quackable" Collapsed="true">
+    <Position X="8" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEI=</HashCode>
+      <FileName>Quackable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuackCounter">
+    <Position X="14.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACCAAIAAARAAABAgAAAAAAAAEAAAAgAAAAEA=</HashCode>
+      <FileName>QuackCounter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="QuackObservable" Collapsed="true">
+    <Position X="9" Y="0.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAgCAAAIAAAAAAABAIAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>QuackObservable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RubberDuck">
+    <Position X="10.25" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAIAAABABABAAAAAAAAAAAAAAAAAAAAEQ=</HashCode>
+      <FileName>RubberDuck.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Observable">
+    <Position X="17" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAACAAAIAAAQAAAAAQAAAAAAAAAAAIAAAAAAAA=</HashCode>
+      <FileName>Observable.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="RedheadDuck">
+    <Position X="5.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACAAAIAAABAAAJAAAQAAAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>RedheadDuck.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="GooseAdapter">
+    <Position X="12.5" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAACBAQIAAABAAABAAAAAEAAAAAAAAAAAAAAEA=</HashCode>
+      <FileName>GooseAdapter.h</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei UI" Size="9" />
+</ClassDiagram>
