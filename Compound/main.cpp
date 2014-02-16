@@ -1,4 +1,3 @@
-#include <vld.h>
 #include "DuckSimulator.h"
 #include "CountingDuckFactory.h"
 
